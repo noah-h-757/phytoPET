@@ -1,0 +1,355 @@
+
+### Define radioactive tracer Fluorine-18 for each capillary tube
+
+# Source for Capillary 1
+
+/gate/source/addSource	fluor18
+
+#/gate/source/fluor18/setActivity 14.8 megabecquerel
+/gate/source/fluor18/setActivity 5. becquerel
+
+/gate/source/fluor18/setType backtoback
+/gate/source/fluor18/gps/particle gamma
+/gate/source/fluor18/gps/monoenergy 511. keV
+/gate/source/fluor18/setForcedUnstableFlag true
+
+#/gate/source/fluor18/setForcedHalfLife 6865 s
+/gate/source/fluor18/setForcedHalfLife 5 s
+
+/gate/source/fluor18/gps/type Volume
+/gate/source/fluor18/gps/shape Cylinder
+#/gate/source/fluor18/gps/radius 0.55 mm
+/gate/source/fluor18/gps/radius 2.75 cm
+#/gate/source/fluor18/gps/halfz 30. mm
+/gate/source/fluor18/gps/halfz 7.5 cm
+/gate/source/fluor18/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18/visualize 5000 magenta 2
+/gate/source/fluor18/gps/confine NULL
+/gate/source/fluor18/gps/angtype iso
+
+/gate/source/fluor18/attachTo capillary1
+
+# Source for Capillary 2
+
+/gate/source/addSource	fluor18_2
+
+#/gate/source/fluor18_2/setActivity 14.8 megabecquerel
+/gate/source/fluor18_2/setActivity 5. becquerel
+
+/gate/source/fluor18_2/setType backtoback
+/gate/source/fluor18_2/gps/particle gamma
+/gate/source/fluor18_2/gps/monoenergy 511. keV
+/gate/source/fluor18_2/setForcedUnstableFlag true
+
+#/gate/source/fluor18_2/setForcedHalfLife 6865 s
+/gate/source/fluor18_2/setForcedHalfLife 5 s
+
+/gate/source/fluor18_2/gps/type Volume
+/gate/source/fluor18_2/gps/shape Cylinder
+#/gate/source/fluor18_2/gps/radius 0.55 mm
+/gate/source/fluor18_2/gps/radius 2.75 cm
+#/gate/source/fluor18_2/gps/halfz 30. mm
+/gate/source/fluor18_2/gps/halfz 7.5 cm
+/gate/source/fluor18_2/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18_2/visualize 5000 magenta 2
+/gate/source/fluor18_2/gps/confine NULL
+/gate/source/fluor18_2/gps/angtype iso
+
+/gate/source/fluor18_2/attachTo capillary2
+
+# Source for Capillary 3
+
+/gate/source/addSource	fluor18_3
+
+#/gate/source/fluor18_3/setActivity 14.8 megabecquerel
+/gate/source/fluor18_3/setActivity 5. becquerel
+
+/gate/source/fluor18_3/setType backtoback
+/gate/source/fluor18_3/gps/particle gamma
+/gate/source/fluor18_3/gps/monoenergy 511. keV
+/gate/source/fluor18_3/setForcedUnstableFlag true
+
+#/gate/source/fluor18_3/setForcedHalfLife 6865 s
+/gate/source/fluor18_3/setForcedHalfLife 5 s
+
+/gate/source/fluor18_3/gps/type Volume
+/gate/source/fluor18_3/gps/shape Cylinder
+#/gate/source/fluor18_3/gps/radius 0.55 mm
+/gate/source/fluor18_3/gps/radius 2.75 cm
+#/gate/source/fluor18_3/gps/halfz 30. mm
+/gate/source/fluor18_3/gps/halfz 7.5 cm
+/gate/source/fluor18_3/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18_3/visualize 5000 magenta 2
+/gate/source/fluor18_3/gps/confine NULL
+/gate/source/fluor18_3/gps/angtype iso
+
+/gate/source/fluor18_3/attachTo capillary3
+
+# Source for Capillary 4
+
+/gate/source/addSource	fluor18_4
+
+#/gate/source/fluor18_4/setActivity 14.8 megabecquerel
+/gate/source/fluor18_4/setActivity 5. becquerel
+
+/gate/source/fluor18_4/setType backtoback
+/gate/source/fluor18_4/gps/particle gamma
+/gate/source/fluor18_4/gps/monoenergy 511. keV
+/gate/source/fluor18_4/setForcedUnstableFlag true
+
+#/gate/source/fluor18_4/setForcedHalfLife 6865 s
+/gate/source/fluor18_4/setForcedHalfLife 5 s
+
+/gate/source/fluor18_4/gps/type Volume
+/gate/source/fluor18_4/gps/shape Cylinder
+#/gate/source/fluor18_4/gps/radius 0.55 mm
+/gate/source/fluor18_4/gps/radius 2.75 cm
+#/gate/source/fluor18_4/gps/halfz 30. mm
+/gate/source/fluor18_4/gps/halfz 7.5 cm
+/gate/source/fluor18_4/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18_4/visualize 5000 magenta 2
+/gate/source/fluor18_4/gps/confine NULL
+/gate/source/fluor18_4/gps/angtype iso
+
+/gate/source/fluor18_4/attachTo capillary4
+
+# Source for Capillary 5
+
+/gate/source/addSource	fluor18_5
+
+#/gate/source/fluor18_5/setActivity 14.8 megabecquerel
+/gate/source/fluor18_5/setActivity 5. becquerel
+
+/gate/source/fluor18_5/setType backtoback
+/gate/source/fluor18_5/gps/particle gamma
+/gate/source/fluor18_5/gps/monoenergy 511. keV
+/gate/source/fluor18_5/setForcedUnstableFlag true
+
+#/gate/source/fluor18_5/setForcedHalfLife 6865 s
+/gate/source/fluor18_5/setForcedHalfLife 5 s
+
+/gate/source/fluor18_5/gps/type Volume
+/gate/source/fluor18_5/gps/shape Cylinder
+#/gate/source/fluor18_5/gps/radius 0.55 mm
+/gate/source/fluor18_5/gps/radius 2.75 cm
+#/gate/source/fluor18_5/gps/halfz 30. mm
+/gate/source/fluor18_5/gps/halfz 7.5 cm
+/gate/source/fluor18_5/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18_5/visualize 5000 magenta 2
+/gate/source/fluor18_5/gps/confine NULL
+/gate/source/fluor18_5/gps/angtype iso
+
+/gate/source/fluor18_5/attachTo capillary5
+
+# Source for Capillary 6
+
+/gate/source/addSource	fluor18_6
+
+#/gate/source/fluor18_6/setActivity 14.8 megabecquerel
+/gate/source/fluor18_6/setActivity 5. becquerel
+
+/gate/source/fluor18_6/setType backtoback
+/gate/source/fluor18_6/gps/particle gamma
+/gate/source/fluor18_6/gps/monoenergy 511. keV
+/gate/source/fluor18_6/setForcedUnstableFlag true
+
+#/gate/source/fluor18_6/setForcedHalfLife 6865 s
+/gate/source/fluor18_6/setForcedHalfLife 5 s
+
+/gate/source/fluor18_6/gps/type Volume
+/gate/source/fluor18_6/gps/shape Cylinder
+#/gate/source/fluor18_6/gps/radius 0.55 mm
+/gate/source/fluor18_6/gps/radius 2.75 cm
+#/gate/source/fluor18_6/gps/halfz 30. mm
+/gate/source/fluor18_6/gps/halfz 7.5 cm
+/gate/source/fluor18_6/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18_6/visualize 5000 magenta 2
+/gate/source/fluor18_6/gps/confine NULL
+/gate/source/fluor18_6/gps/angtype iso
+
+/gate/source/fluor18_6/attachTo capillary6
+
+# Source for Capillary 7
+
+/gate/source/addSource	fluor18_7
+
+#/gate/source/fluor18_7/setActivity 14.8 megabecquerel
+/gate/source/fluor18_7/setActivity 5. becquerel
+
+/gate/source/fluor18_7/setType backtoback
+/gate/source/fluor18_7/gps/particle gamma
+/gate/source/fluor18_7/gps/monoenergy 511. keV
+/gate/source/fluor18_7/setForcedUnstableFlag true
+
+#/gate/source/fluor18_7/setForcedHalfLife 6865 s
+/gate/source/fluor18_7/setForcedHalfLife 5 s
+
+/gate/source/fluor18_7/gps/type Volume
+/gate/source/fluor18_7/gps/shape Cylinder
+#/gate/source/fluor18_7/gps/radius 0.55 mm
+/gate/source/fluor18_7/gps/radius 2.75 cm
+#/gate/source/fluor18_7/gps/halfz 30. mm
+/gate/source/fluor18_7/gps/halfz 7.5 cm
+/gate/source/fluor18_7/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18_7/visualize 5000 magenta 2
+/gate/source/fluor18_7/gps/confine NULL
+/gate/source/fluor18_7/gps/angtype iso
+
+/gate/source/fluor18_7/attachTo capillary7
+
+# Source for Capillary 8
+
+/gate/source/addSource	fluor18_8
+
+#/gate/source/fluor18_8/setActivity 14.8 megabecquerel
+/gate/source/fluor18_8/setActivity 5. becquerel
+
+/gate/source/fluor18_8/setType backtoback
+/gate/source/fluor18_8/gps/particle gamma
+/gate/source/fluor18_8/gps/monoenergy 511. keV
+/gate/source/fluor18_8/setForcedUnstableFlag true
+
+#/gate/source/fluor18_8/setForcedHalfLife 6865 s
+/gate/source/fluor18_8/setForcedHalfLife 5 s
+
+/gate/source/fluor18_8/gps/type Volume
+/gate/source/fluor18_8/gps/shape Cylinder
+#/gate/source/fluor18_8/gps/radius 0.55 mm
+/gate/source/fluor18_8/gps/radius 2.75 cm
+#/gate/source/fluor18_8/gps/halfz 30. mm
+/gate/source/fluor18_8/gps/halfz 7.5 cm
+/gate/source/fluor18_8/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18_8/visualize 5000 magenta 2
+/gate/source/fluor18_8/gps/confine NULL
+/gate/source/fluor18_8/gps/angtype iso
+
+/gate/source/fluor18_8/attachTo capillary8
+
+# Source for Capillary 9
+
+/gate/source/addSource	fluor18_9
+
+#/gate/source/fluor18_9/setActivity 14.8 megabecquerel
+/gate/source/fluor18_9/setActivity 5. becquerel
+
+/gate/source/fluor18_9/setType backtoback
+/gate/source/fluor18_9/gps/particle gamma
+/gate/source/fluor18_9/gps/monoenergy 511. keV
+/gate/source/fluor18_9/setForcedUnstableFlag true
+
+#/gate/source/fluor18_9/setForcedHalfLife 6865 s
+/gate/source/fluor18_9/setForcedHalfLife 5 s
+
+/gate/source/fluor18_9/gps/type Volume
+/gate/source/fluor18_9/gps/shape Cylinder
+#/gate/source/fluor18_9/gps/radius 0.55 mm
+/gate/source/fluor18_9/gps/radius 2.75 cm
+#/gate/source/fluor18_9/gps/halfz 30. mm
+/gate/source/fluor18_9/gps/halfz 7.5 cm
+/gate/source/fluor18_9/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18_9/visualize 5000 magenta 2
+/gate/source/fluor18_9/gps/confine NULL
+/gate/source/fluor18_9/gps/angtype iso
+
+/gate/source/fluor18_9/attachTo capillary9
+
+# Source for Capillary 10
+
+/gate/source/addSource	fluor18_10
+
+#/gate/source/fluor18_10/setActivity 14.8 megabecquerel
+/gate/source/fluor18_10/setActivity 5. becquerel
+
+/gate/source/fluor18_10/setType backtoback
+/gate/source/fluor18_10/gps/particle gamma
+/gate/source/fluor18_10/gps/monoenergy 511. keV
+/gate/source/fluor18_10/setForcedUnstableFlag true
+
+#/gate/source/fluor18_10/setForcedHalfLife 6865 s
+/gate/source/fluor18_10/setForcedHalfLife 5 s
+
+/gate/source/fluor18_10/gps/type Volume
+/gate/source/fluor18_10/gps/shape Cylinder
+#/gate/source/fluor18_10/gps/radius 0.55 mm
+/gate/source/fluor18_10/gps/radius 2.75 cm
+#/gate/source/fluor18_10/gps/halfz 30. mm
+/gate/source/fluor18_10/gps/halfz 7.5 cm
+/gate/source/fluor18_10/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18_10/visualize 5000 magenta 2
+/gate/source/fluor18_10/gps/confine NULL
+/gate/source/fluor18_10/gps/angtype iso
+
+/gate/source/fluor18_10/attachTo capillary10
+
+# Source for Capillary 11
+
+/gate/source/addSource	fluor18_11
+
+#/gate/source/fluor18_11/setActivity 14.8 megabecquerel
+/gate/source/fluor18_11/setActivity 5. becquerel
+
+/gate/source/fluor18_11/setType backtoback
+/gate/source/fluor18_11/gps/particle gamma
+/gate/source/fluor18_11/gps/monoenergy 511. keV
+/gate/source/fluor18_11/setForcedUnstableFlag true
+
+#/gate/source/fluor18_11/setForcedHalfLife 6865 s
+/gate/source/fluor18_11/setForcedHalfLife 5 s
+
+/gate/source/fluor18_11/gps/type Volume
+/gate/source/fluor18_11/gps/shape Cylinder
+#/gate/source/fluor18_11/gps/radius 0.55 mm
+/gate/source/fluor18_11/gps/radius 2.75 cm
+#/gate/source/fluor18_11/gps/halfz 30. mm
+/gate/source/fluor18_11/gps/halfz 7.5 cm
+/gate/source/fluor18_11/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18_11/visualize 5000 magenta 2
+/gate/source/fluor18_11/gps/confine NULL
+/gate/source/fluor18_11/gps/angtype iso
+
+/gate/source/fluor18_11/attachTo capillary11
+
+# Source for Capillary 12
+
+/gate/source/addSource	fluor18_12
+
+#/gate/source/fluor18_12/setActivity 14.8 megabecquerel
+/gate/source/fluor18_12/setActivity 5. becquerel
+
+/gate/source/fluor18_12/setType backtoback
+/gate/source/fluor18_12/gps/particle gamma
+/gate/source/fluor18_12/gps/monoenergy 511. keV
+/gate/source/fluor18_12/setForcedUnstableFlag true
+
+#/gate/source/fluor18_12/setForcedHalfLife 6865 s
+/gate/source/fluor18_12/setForcedHalfLife 5 s
+
+/gate/source/fluor18_12/gps/type Volume
+/gate/source/fluor18_12/gps/shape Cylinder
+#/gate/source/fluor18_12/gps/radius 0.55 mm
+/gate/source/fluor18_12/gps/radius 2.75 cm
+#/gate/source/fluor18_12/gps/halfz 30. mm
+/gate/source/fluor18_12/gps/halfz 7.5 cm
+/gate/source/fluor18_12/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18_12/visualize 5000 magenta 2
+/gate/source/fluor18_12/gps/confine NULL
+/gate/source/fluor18_12/gps/angtype iso
+
+/gate/source/fluor18_12/attachTo capillary12
+
+/gate/source/list
+
+
+

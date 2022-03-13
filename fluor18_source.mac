@@ -1,0 +1,45 @@
+
+# Define radioactive tracer Fluorine-18
+
+/gate/source/addSource	fluor18
+
+#/gate/source/fluor18/setActivity 14.8 megabecquerel
+/gate/source/fluor18/setActivity 5. becquerel
+
+/gate/source/fluor18/gps/particle e+
+/gate/source/fluor18/setForcedUnstableFlag true
+/gate/source/fluor18/gps/energytype Fluor18
+
+#/gate/source/fluor18/setForcedHalfLife 6865 s
+/gate/source/fluor18/setForcedHalfLife 5 s
+
+/gate/source/fluor18/gps/type Volume
+/gate/source/fluor18/gps/shape Cylinder
+#/gate/source/fluor18/gps/radius 0.55 mm
+/gate/source/fluor18/gps/radius 2.75 cm
+#/gate/source/fluor18/gps/halfz 30. mm
+/gate/source/fluor18/gps/halfz 7.5 cm
+/gate/source/fluor18/gps/centre 0. 0. 0. cm
+
+/gate/source/fluor18/visualize 5000 magenta 2
+/gate/source/fluor18/gps/confine NULL
+/gate/source/fluor18/gps/angtype iso
+
+#/gate/source/fluor18/gps/mintheta      96.089 deg
+#/gate/source/fluor18/gps/maxtheta      83.911  deg
+#/gate/source/fluor18/gps/minphi        -6.089 deg
+#/gate/source/fluor18/gps/maxphi        6.089 deg
+
+/gate/source/fluor18/gps/mintheta      103 deg
+/gate/source/fluor18/gps/maxtheta      77.00 deg
+/gate/source/fluor18/gps/minphi        -13.0 deg
+/gate/source/fluor18/gps/maxphi        13.0  deg
+
+/gate/source/fluor18/attachTo capillary1
+
+/gate/source/list
+
+
+
+
+
