@@ -1,0 +1,39 @@
+
+# Visualisation
+/control/execute mac/visu.mac
+
+# Verbosity
+/control/execute mac/verbose.mac
+
+# Geometry
+/control/execute mac/world.mac
+/control/execute mac/pet_head.mac 
+#/control/execute mac/ecat_geometry.mac
+#/control/execute mac/pet_digitizer.mac
+/control/execute mac/trialCoincPetDigi.mac
+/control/execute mac/cylindrical_phantom.mac
+/control/execute mac/capillary_tubes.mac
+# Physics
+/control/execute mac/physics.mac
+
+# Output
+/control/execute mac/output.mac 
+
+# Initialisation
+/gate/run/initialize
+
+# Source
+#/control/execute mac/fluor18_source _backtoback.mac
+/control/execute mac/fluor18_source.mac
+#/control/execute mac/source_2gammas.mac
+#/control/execute mac/pointsource_2gammas.mac
+
+# Random
+/gate/random/setEngineName MersenneTwister
+/gate/random/setEngineSeed auto
+
+# Start acquisition
+/gate/application/setTimeStart 0 s
+/gate/application/setTimeSlice 0.01 s
+/gate/application/setTimeStop  0.01 s
+/gate/application/start

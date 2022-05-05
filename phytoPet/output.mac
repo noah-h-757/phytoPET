@@ -1,0 +1,22 @@
+
+/gate/actor/addActor               SimulationStatisticActor stat
+/gate/actor/stat/save              output/stat.txt
+#/gate/actor/stat/saveEveryNSeconds 5
+
+
+# Define a root listmode file output
+
+/gate/output/root/enable
+#/gate/output/root/setFileName             output/results_air
+#/gate/output/root/setFileName             output/results_water
+#/gate/output/root/setFileName             output/results_dirt
+/gate/output/root/setFileName             output/results_wetdirt
+
+/gate/output/root/setRootHitFlag          1
+/gate/output/root/setRootSinglesFlag      1
+/gate/output/root/setRootCoincidencesFlag 1
+#/gate/output/root/setRootdelayFlag        1
+/gate/output/root/setRootNtupleFlag       1
+
+
+#/gate/phantom/attachPhantomSD

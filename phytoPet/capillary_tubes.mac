@@ -1,0 +1,219 @@
+
+### Define cylindrical capillary tubes
+
+# Capillary Tube 1
+
+/gate/phantom/daughters/name capillary1
+/gate/phantom/daughters/insert cylinder
+
+/gate/capillary1/geometry/setRmin     2.75 cm
+/gate/capillary1/geometry/setRmax     3.00 cm
+/gate/capillary1/geometry/setHeight   15. cm
+#/gate/capillary1/geometry/setRmax     .55 mm
+#/gate/capillary1/geometry/setHeight   30. mm
+
+/gate/capillary1/setMaterial Glass
+/gate/capillary1/vis/setColor magenta
+
+/gate/capillary1/placement/setTranslation 0 0 0 cm
+
+/gate/capillary1/vis/forceSolid
+
+# Capillary Tube 2
+
+/gate/phantom/daughters/name capillary2
+/gate/phantom/daughters/insert cylinder
+
+/gate/capillary2/geometry/setRmin     2.75 cm
+/gate/capillary2/geometry/setRmax     3.00 cm
+/gate/capillary2/geometry/setHeight   15. cm
+#/gate/capillary2/geometry/setRmax     .55 mm
+#/gate/capillary2/geometry/setHeight   30. mm
+
+/gate/capillary2/setMaterial Glass
+/gate/capillary2/vis/setColor magenta
+
+/gate/capillary2/placement/setTranslation -7.0 0 0 cm
+
+/gate/capillary2/vis/forceSolid
+
+# Capillary Tube 3
+
+/gate/phantom/daughters/name capillary3
+/gate/phantom/daughters/insert cylinder
+
+/gate/capillary3/geometry/setRmin     2.75 cm
+/gate/capillary3/geometry/setRmax     3.00 cm
+/gate/capillary3/geometry/setHeight   15. cm
+#/gate/capillary3/geometry/setRmax     .55 mm
+#/gate/capillary3/geometry/setHeight   30. mm
+
+/gate/capillary3/setMaterial Glass
+/gate/capillary3/vis/setColor magenta
+
+/gate/capillary3/placement/setTranslation -14.0 0 0 cm
+
+/gate/capillary3/vis/forceSolid
+
+# Capillary Tube 4
+
+/gate/phantom/daughters/name capillary4
+/gate/phantom/daughters/insert cylinder
+
+/gate/capillary4/geometry/setRmin     2.75 cm
+/gate/capillary4/geometry/setRmax     3.00 cm
+/gate/capillary4/geometry/setHeight   15. cm
+#/gate/capillary4/geometry/setRmax     .55 mm
+#/gate/capillary4/geometry/setHeight   30. mm
+
+/gate/capillary4/setMaterial Glass
+/gate/capillary4/vis/setColor magenta
+
+/gate/capillary4/placement/setTranslation -21.0 0 0 cm
+
+/gate/capillary4/vis/forceSolid
+
+# Capillary Tube 5
+
+/gate/phantom/daughters/name capillary5
+/gate/phantom/daughters/insert cylinder
+
+/gate/capillary5/geometry/setRmin     2.75 cm
+/gate/capillary5/geometry/setRmax     3.00 cm
+/gate/capillary5/geometry/setHeight   15. cm
+#/gate/capillary5/geometry/setRmax     .55 mm
+#/gate/capillary5/geometry/setHeight   30. mm
+
+/gate/capillary5/setMaterial Glass
+/gate/capillary5/vis/setColor magenta
+
+/gate/capillary5/placement/setTranslation -28.0 0 0 cm
+
+/gate/capillary5/vis/forceSolid
+
+# Capillary Tube 6
+
+/gate/phantom/daughters/name capillary6
+/gate/phantom/daughters/insert cylinder
+
+/gate/capillary6/geometry/setRmin     2.75 cm
+/gate/capillary6/geometry/setRmax     3.00 cm
+/gate/capillary6/geometry/setHeight   15. cm
+#/gate/capillary6/geometry/setRmax     .55 mm
+#/gate/capillary6/geometry/setHeight   30. mm
+
+/gate/capillary6/setMaterial Glass
+/gate/capillary6/vis/setColor magenta
+
+/gate/capillary6/placement/setTranslation 14.0 0 0 cm
+
+/gate/capillary6/vis/forceSolid
+
+# Capillary Tube 7
+
+/gate/phantom/daughters/name capillary7
+/gate/phantom/daughters/insert cylinder
+
+/gate/capillary7/geometry/setRmin     2.75 cm
+/gate/capillary7/geometry/setRmax     3.00 cm
+/gate/capillary7/geometry/setHeight   15. cm
+#/gate/capillary7/geometry/setRmax     .55 mm
+#/gate/capillary7/geometry/setHeight   30. mm
+
+/gate/capillary7/setMaterial Glass
+/gate/capillary7/vis/setColor magenta
+
+/gate/capillary7/placement/setTranslation 28.0 0 0 cm
+
+/gate/capillary7/vis/forceSolid
+
+# Capillary Tube 8
+
+/gate/phantom/daughters/name capillary8
+/gate/phantom/daughters/insert cylinder
+
+/gate/capillary8/geometry/setRmin     2.75 cm
+/gate/capillary8/geometry/setRmax     3.00 cm
+/gate/capillary8/geometry/setHeight   15. cm
+#/gate/capillary8/geometry/setRmax     .55 mm
+#/gate/capillary8/geometry/setHeight   30. mm
+
+/gate/capillary8/setMaterial Glass
+/gate/capillary8/vis/setColor magenta
+
+/gate/capillary8/placement/setTranslation 0 10.0 0 cm
+
+/gate/capillary8/vis/forceSolid
+
+# Capillary Tube 9
+
+/gate/phantom/daughters/name capillary9
+/gate/phantom/daughters/insert cylinder
+
+/gate/capillary9/geometry/setRmin     2.75 cm
+/gate/capillary9/geometry/setRmax     3.00 cm
+/gate/capillary9/geometry/setHeight   15. cm
+#/gate/capillary9/geometry/setRmax     .55 mm
+#/gate/capillary9/geometry/setHeight   30. mm
+
+/gate/capillary9/setMaterial Glass
+/gate/capillary9/vis/setColor magenta
+
+/gate/capillary9/placement/setTranslation 0 20.0 0 cm
+
+/gate/capillary9/vis/forceSolid
+
+# Capillary Tube 10
+
+/gate/phantom/daughters/name capillary10
+/gate/phantom/daughters/insert cylinder
+
+/gate/capillary10/geometry/setRmin     2.75 cm
+/gate/capillary10/geometry/setRmax     3.00 cm
+/gate/capillary10/geometry/setHeight   15. cm
+#/gate/capillary10/geometry/setRmax     .55 mm
+#/gate/capillary10/geometry/setHeight   30. mm
+
+/gate/capillary10/setMaterial Glass
+/gate/capillary10/vis/setColor magenta
+
+/gate/capillary10/placement/setTranslation 0 30.0 0 cm
+
+/gate/capillary10/vis/forceSolid
+
+# Capillary Tube 11
+
+/gate/phantom/daughters/name capillary11
+/gate/phantom/daughters/insert cylinder
+
+/gate/capillary11/geometry/setRmin     2.75 cm
+/gate/capillary11/geometry/setRmax     3.00 cm
+/gate/capillary11/geometry/setHeight   15. cm
+#/gate/capillary11/geometry/setRmax     .55 mm
+#/gate/capillary11/geometry/setHeight   30. mm
+
+/gate/capillary11/setMaterial Glass
+/gate/capillary11/vis/setColor magenta
+
+/gate/capillary11/placement/setTranslation 0 -15.0 0 cm
+
+/gate/capillary11/vis/forceSolid
+
+# Capillary Tube 12
+
+/gate/phantom/daughters/name capillary12
+/gate/phantom/daughters/insert cylinder
+
+/gate/capillary12/geometry/setRmin     2.75 cm
+/gate/capillary12/geometry/setRmax     3.00 cm
+/gate/capillary12/geometry/setHeight   15. cm
+#/gate/capillary12/geometry/setRmax     .55 mm
+#/gate/capillary12/geometry/setHeight   30. mm
+
+/gate/capillary12/setMaterial Glass
+/gate/capillary12/vis/setColor magenta
+
+/gate/capillary12/placement/setTranslation 0 -30.0 0 cm
+
+/gate/capillary12/vis/forceSolid
+
