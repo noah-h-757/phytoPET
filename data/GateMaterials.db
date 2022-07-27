@@ -484,3 +484,33 @@ Epoxy:  d=1.0 g/cm3; n=3; state=Solid
 Carbide: d=15.8 g/cm3; n=2 ; state=Solid
         +el: name=Tungsten   ; n=1
         +el: name=Carbon     ; n=1
+        
+GenOrgMatter: d=1.30 g/cm3 ; n=3 ; state=Solid
+	+el: name=Carbon	; f=0.50
+	+el: name=Oxygen	; f=0.45
+	+el: name=Hydrogen	; f=0.05
+
+
+Crust: d=2.70 g/cm3 ; n=10 ; state=Solid
+	+el: name=Oxygen	; f=0.461
+	+el: name=Silicon	; f=0.282
+	+el: name=Aluminium	; f=0.082
+	+el: name=Iron		; f=0.056
+	+el: name=Calcium	; f=0.042
+	+el: name=Sodium	; f=0.024
+	+el: name=Magnesium	; f=0.023
+	+el: name=Potassium	; f=0.021
+	+el: name=Titanium	; f=0.006
+	+el: name=Hydrogen	; f=0.003
+	
+Dirt: d=1.5 g/cm3 ; n=4 ; state=Solid
+	+mat: name=Water	; f=0.25
+	+mat: name=Air		; f=0.25
+	+mat: name=GenOrgMatter	; f=0.05
+	+mat: name=Crust	; f=0.45
+
+WetDirt: d=1.298375 g/cm3 ; n=2 ; state=Solid
+	+mat: name=Water	; f=0.65
+	+mat: name=Dirt	; f=0.35
+
+
